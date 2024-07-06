@@ -1,9 +1,10 @@
 <template>
-  <v-container>
+  <v-container >
     <v-row class="text-center">
       <v-col cols="12">
-        <div>Testando Cadastro Simples</div>
+        <div color="primary">Testando Cadastro Simples</div>
         <v-text-field
+					color="primary"
           hide-details="auto"
           label="Main input"
           v-model="data.nome"
